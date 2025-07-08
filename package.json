@@ -8,6 +8,7 @@
     "check": "astro check",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
+    "deploy": "gh-pages -d dist"
     "astro": "astro",
     "type-check": "tsc --noEmit --isolatedDeclarations",
     "new-post": "node scripts/new-post.js",
@@ -69,6 +70,7 @@
     "@types/markdown-it": "^14.1.2",
     "@types/mdast": "^4.0.4",
     "@types/sanitize-html": "^2.16.0",
+    "gh-pages": "^6.3.0",
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^13.0.2"
   },
